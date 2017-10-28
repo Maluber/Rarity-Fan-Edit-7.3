@@ -631,6 +631,7 @@ function R:PrepareDefaults()
      ["Torn Invitation"] =                               { cat = LEGION, type = MOUNT, method = SPECIAL, name = L["Torn Invitation"], spellId = 171850, itemId = 140495, chance = 200, questId = 43943,  sourceText = L["The quest starter item for Reins of the Llothien Prowler"], coords = { {m=1033} }, },
      ["Valarjar Stormwing"] =                            { cat = LEGION, type = MOUNT, method = USE, name = L["Valarjar Stormwing"], spellId = 242882, itemId = 147805, items = { 152106, }, chance = 20, },
      ["Wild Dreamrunner"] =                              { cat = LEGION, type = MOUNT, method = USE, name = L["Wild Dreamrunner"], spellId = 242875, itemId = 147804, items = { 152103, }, chance = 20, },
+					-- 7.3
 	 ["Glorious Felcrusher"] =							 { cat = LEGION, type = MOUNT, method = USE, name = L["Glorious Felcrusher"], spellId = 254069, itemId = 153042, items = { 152923, }, chance = 20, },
 	 ["Blessed Felcrusher"] =							 { cat = LEGION, type = MOUNT, method = USE, name = L["Blessed Felcrusher"], spellId = 254258, itemId = 153043, items = { 152923, }, chance = 20, },
 	 ["Avenging Felcrusher"] =							 { cat = LEGION, type = MOUNT, method = USE, name = L["Avenging Felcrusher"], spellId = 254259, itemId = 153044, items = { 152923, }, chance = 20, },
@@ -978,6 +979,7 @@ function R:PrepareDefaults()
 					["Unstable Powder Box"] =                           { cat = LEGION, type = ITEM, isToy = true, method = SPECIAL, name = L["Unstable Powder Box"], itemId = 141301, chance = 33, questId = 43943, coords = {{m=1033}} },
 					["Wisp in a Bottle"] =                              { cat = LEGION, type = ITEM, isToy = true, method = SPECIAL, name = L["Wisp in a Bottle"], itemId = 141306, chance = 33, questId = 43943, coords = {{m=1033}} },
 					["Pilfered Sweeper"] =                              { cat = LEGION, type = ITEM, isToy = true, method = SPECIAL, name = L["Pilfered Sweeper"], itemId = 147867, chance = 100, coords = {{m=1021,x=47.8,y=67.3}} },
+					-- 7.3
 					["Holy Lightsphere"] = 								{ cat = LEGION, type = ITEM, isToy = true, method = USE, name = L["Holy Lightsphere"], itemId = 153182, items = { 152923, }, chance = 20, },
 					["Sightless Eye"] = 								{ cat = LEGION, type = ITEM, isToy = true, method = NPC, name = L["Sightless Eye"], itemId = 153293, npcs = { 127706, }, chance = 10, questId = 48971, sourceText = L["Need to buy 'Observer's Locus Resonator' for '500 Intact Demon Eyes' to gain access."], coords = { {m=1171} }, },
 					["Baarut the Brisk"] = 								{ cat = LEGION, type = ITEM, isToy = true, method = NPC, name = L["Baarut the Brisk"], itemId = 153193, npcs = { 126862, }, chance = 3, questId = 48700, coords = { {m=1170,x=44,y=60.5} }, },
@@ -993,8 +995,9 @@ function R:PrepareDefaults()
 					
 					-- Mount-related items (5.x)
      ["Primal Egg"] =                                    { cat = MOP, type = ITEM, method = NPC, name = L["Primal Egg"], itemId = 94295, npcs = { 69983, 69991, 69992, 69993, 70004, 70005, 70006, 70007, 70008, 70009, 70010, 70011, 70012, 70013, 70014, 70015, 70016, 70017, 70018, 70019, 70020, 70021, }, chance = 100,  unique = true, sourceText = L["Dropped by dinosaurs on Isle of Giants Will hatch into one of three Primal Raptor mounts after three days."], coords = { {m=929} }, },
-     ["Skyshard"] =                                      { cat = MOP, type = ITEM, method = ZONE, name = L["Skyshard"], spellId = 90655, itemId = 86547, zones = { "811" }, chance = 1000,  sourceText = L["Dropped by any mob in Vale of Eternal Blossoms (except minor mobs). 10 of these can be combined to pierce Alani's shield, allowing combat and a guaranteed drop of Reins of the Thundering Ruby Cloud Serpent."], coords = { {m=811} }, },
-     ["Fel-Spotted Egg-Sabuul"] = 								 { cat = LEGION, type = ITEM, method = NPC, name = L["Fel-Spotted Egg"], spellId = 153191, itemId = 153190, npcs = { 126898 }, chance = 3, questId = { 48712 }, sourceText = L["Sabuul"], coords = { {m=1170} }, },
+     ["Skyshard"] = 									 { cat = MOP, type = ITEM, method = ZONE, name = L["Skyshard"], spellId = 90655, itemId = 86547, zones = { "811" }, chance = 1000,  sourceText = L["Dropped by any mob in Vale of Eternal Blossoms (except minor mobs). 10 of these can be combined to pierce Alani's shield, allowing combat and a guaranteed drop of Reins of the Thundering Ruby Cloud Serpent."], coords = { {m=811} }, },
+					-- 7.3
+	 ["Fel-Spotted Egg-Sabuul"] = 								 { cat = LEGION, type = ITEM, method = NPC, name = L["Fel-Spotted Egg"], spellId = 153191, itemId = 153190, npcs = { 126898 }, chance = 3, questId = { 48712 }, sourceText = L["Sabuul"], coords = { {m=1170} }, },
 	 ["Fel-Spotted Egg-Varga"] = 								 { cat = LEGION, type = ITEM, method = NPC, name = L["Fel-Spotted Egg"], spellId = 153191, itemId = 153190, npcs = { 126208 }, chance = 3, questId = { 48812 }, sourceText = L["Varga"], coords = { {m=1171} }, },
 	 ["Fel-Spotted Egg-Naroua"] = 								 { cat = LEGION, type = ITEM, method = NPC, name = L["Fel-Spotted Egg"], spellId = 153191, itemId = 153190, npcs = { 126419 }, chance = 3, questId = { 48502 }, sourceText = L["Naroua"], coords = { {m=1135} }, },
 	 ["Fel-Spotted Egg-Kaara"] = 								 { cat = LEGION, type = ITEM, method = NPC, name = L["Fel-Spotted Egg"], spellId = 153191, itemId = 153190, npcs = { 126860 }, chance = 3, questId = { 48698 }, sourceText = L["Kaara"], coords = { {m=1170} }, },
