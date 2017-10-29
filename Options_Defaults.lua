@@ -1000,7 +1000,7 @@ function R:PrepareDefaults()
 	 ["Fel-Spotted Egg-Sabuul"] = 								 { cat = LEGION, type = ITEM, method = NPC, name = L["Fel-Spotted Egg"], spellId = 153191, itemId = 153190, npcs = { 126898 }, chance = 3, questId = { 48712 }, sourceText = L["Sabuul"], coords = { {m=1170} }, },
 	 ["Fel-Spotted Egg-Varga"] = 								 { cat = LEGION, type = ITEM, method = NPC, name = L["Fel-Spotted Egg"], spellId = 153191, itemId = 153190, npcs = { 126208 }, chance = 3, questId = { 48812 }, sourceText = L["Varga"], coords = { {m=1171} }, },
 	 ["Fel-Spotted Egg-Naroua"] = 								 { cat = LEGION, type = ITEM, method = NPC, name = L["Fel-Spotted Egg"], spellId = 153191, itemId = 153190, npcs = { 126419 }, chance = 3, questId = { 48502 }, sourceText = L["Naroua"], coords = { {m=1135} }, },
-	 ["Fel-Spotted Egg-Kaara"] = 								 { cat = LEGION, type = ITEM, method = NPC, name = L["Fel-Spotted Egg"], spellId = 153191, itemId = 153190, npcs = { 126860 }, chance = 3, questId = { 48698 }, sourceText = L["Kaara"], coords = { {m=1170} }, },
+	 
 
 	-- Battle pet-related items
      ["Mr. Pinchy"] =                                    { cat = TBC, type = ITEM, method = FISHING, name = L["Mr. Pinchy"], spellId = 33050, itemId = 27388, zones = { "Lake Jorune", "Lake Ere'Noru", "Skethyl Mountains", "Blackwind Landing", "Blackwind Valley", "Skettis", "Blackwind Lake", "Veil Harr'ik", "Veil Ala'rak", "Terokk's Rest" }, chance = 500, requiresPool = true, creatureId = 18839, sourceText = L["Obtained by fishing in pools located in Terrokar Forest"], coords = { {m=478} }, },
